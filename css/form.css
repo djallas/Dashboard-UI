@@ -1,0 +1,35 @@
+input[type=radio],
+input[type=checkbox] {
+	float: left;margin: 0;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:inherit;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color:inherit;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color:inherit;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color:inherit;
+}
+/* form */
+.form{margin:1%;width:98%;color:#202020}
+.form fieldset{margin:5px 0;float:left;padding:10px 0;border:none;}
+.form legend{font-weight:bold;padding:4px;border-radius:3px}
+.form div{margin:10px 0.5%;padding:0 0;}
+.form textarea, .form input[type='text'],.form input[type='email'],.form input[type='number'],.form input[type='tel'],.form input[type='password']{width:98%;padding:9px 1%;border:1px solid #cecece;background:#ffffff;color:#101010!important;border-radius:4px;box-shadow:0 0 3px rgba(0,0,0,0.05);}
+.form select{width:98%;padding:9px 1%;border:1px solid #cecece;background:#ffffff;color:#101010!important;border-radius:4px;box-shadow:0 0 3px rgba(0,0,0,0.05);}
+.form input[type='text']:hover,.form input[type='email']:hover,.form input[type='tel']:hover,.form textarea:hover{box-shadow:none;}
+.form input[type='text']:focus,.form input[type='email']:focus,.form input[type='tel']:focus,.form textarea:focus{box-shadow:inset 0 0 3px rgba(0,0,0,0.25);border-color:#dddddd;}
+.form input[type=submit]{margin:5px 0 0 0;padding:10px 30px;border-radius:3px;cursor:pointer;font-weight:bold;border:none;background;red}
+.form textarea{width:98%;resize:vertical;font-size:12px;font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;}
+
+.checks{border-radius:0px;overflow:hidden;width:auto!important;float:left!important}
+input[type=radio] {display:none;margin:0px;}
+input[type=radio] + label {background:transparent url(../images/check.png) no-repeat 5px 7px;display:inline-block;margin:-2px;padding:8px 12px 8px 26px;color:#010101;cursor:pointer;}
+input[type=radio]:checked + label {background:transparent url(../images/check.png) no-repeat 5px -30px;box-shadow:none}
+input[type=checkbox] {display:none;margin:0px;}
+input[type=checkbox] + label {background:transparent  url(../images/check.png) no-repeat 5px -75px;display:inline-block;margin:-2px;padding:8px 12px 8px 26px;color:#010101;cursor:pointer;}
+input[type=checkbox]:checked + label {background:transparent  url(../images/check.png) no-repeat 5px -115px;box-shadow:none}

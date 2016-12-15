@@ -1,0 +1,52 @@
+body{background:#03a9f5;color:#181818}
+a{color:#181818}
+h1,h2,h3,h4,h5,h6{color:#0288d1}
+table,li{color:#181818}
+.content{background:#ececec}
+.header{background:#0288d1;box-shadow:0 4px 4px 4px rgba(0,0,0,0.1)}
+.grabnavi li a{color:#ffffff;}
+.search{background:none/*#1b7baf*/}
+.logo{background:transparent url(../images/logo.svg) no-repeat 10px 10px;background-size:40px 40px}
+.box{background:#ffffff;}
+.bbox{color:#ffffff;border:1px solid #ededed}
+
+/* colors */
+.orange{}
+.green{}
+.blue{}
+.indigo{}
+.grey{background:#ececec;}
+.metric{background: #0288d1 url(../images/metric.png) no-repeat right bottom}
+
+.dropmenu ul{}
+.dropmenu ul li{}
+.fnavi{background:#e7eef2;}
+.graprofile span{color:#cfd8dc}
+
+/*title*/
+.title a,.inlineinfo a,.wrapmore a{border:1px solid #a6bac3;color:#90a4ae}
+
+
+/* table */
+table{border:1px solid #eef3f7;}
+table th, table td {border-bottom:1px solid #eef3f7;}
+/*table tbody tr:nth-child(odd){background:#f8fafc;}*/
+
+/* Right Box, Li */
+.wrappost li{border-bottom:1px solid #eceff1}
+/* form */
+.form input[type='submit']{background:#37474f;color:#ffffff!important;}
+
+/* Popup */
+.popup .title{background:#0288d1;color:#ffffff;}
+.close-pop{background:#0288d1 url(../images/close.svg) no-repeat 9px 9px;background-size:14px 14px;}
+.grabpopup{background:rgba(0,0,0,0.85);color:#202020}
+
+/* button, and a button alike */
+.btn{background:#cdcdcd!important;color:#0288d1}
+
+.alerts .alert{color:#ffffff!important;}
+.alert{background:#2fa9f6}
+.alert.info{background:#f6ca2f}
+.alert.error{background:#d51717}
+.alert.success{background:#77b819}

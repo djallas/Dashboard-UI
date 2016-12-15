@@ -1,0 +1,32 @@
+body{background:#faf4f4;color:#37474f}
+a{color:#37474f}
+h1,h2,h3,h4,h5,h6{color:#455a64}
+table,li{color:#37474f}
+.header{background:#b71c1c;box-shadow:0 4px 4px 4px rgba(0,0,0,0.1)}
+.search{background:#e53935}
+.logo{background:transparent url(../images/logo.svg) no-repeat 10px 10px;background-size:40px 40px}
+.box{background:#ffffff;}
+.grabnavi li a{color:#b71c1c;}
+
+.dropmenu ul{border-top:1px solid #cfd8dc;border-bottom:1px solid #cfd8dc;}
+.dropmenu ul li{}
+.fnavi{background:#e7eef2;}
+.graprofile span{color:#cfd8dc}
+
+/*title*/
+.title{color:#c62828;}
+.title a,.inlineinfo a,.wrapmore a{background:#e57373;color:#ffffff}
+
+/* colors */
+.boxbleu{background: #124d73}
+.boxred{background: #463743}
+.boxgreen{background: #0d1c2a}
+.boxorange{background: #e78c32}
+
+/* table */
+table{border:1px solid #ffebee;}
+table th, table td {border-bottom:1px solid #ffebee;}
+table tbody tr:nth-child(odd){background:#f8fafc;}
+
+/* Right Box, Li */
+.wrappost li{border-bottom:1px solid #eceff1}

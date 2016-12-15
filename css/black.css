@@ -1,0 +1,32 @@
+body{background:#313131;color:#bdbdbd}
+a{color:#e0e0e0}
+h1,h2,h3,h4,h5,h6{color:#bdbdbd}
+table,li{color:#bdbdbd}
+.header{background:#212121;box-shadow:0 4px 4px 4px rgba(0,0,0,0.1)}
+.search{background:#616161}
+.logo{background:transparent url(../images/logo.svg) no-repeat 10px 10px;background-size:40px 40px}
+.box{background:#3e3e3e;}
+.grabnavi li a{color:#bdbdbd;}
+
+.dropmenu ul{border-top:1px solid #cfd8dc;border-bottom:1px solid #cfd8dc;}
+.dropmenu ul li{}
+.fnavi{background:#e7eef2;}
+.graprofile span{color:#cfd8dc}
+
+/*title*/
+
+.title a,.inlineinfo a,.wrapmore a{background:#212121;color:#ffffff}
+
+/* colors */
+.boxbleu{background: #124d73}
+.boxred{background: #463743}
+.boxgreen{background: #0d1c2a}
+.boxorange{background: #e78c32}
+
+/* table */
+table{border:1px solid #4c4c4c;}
+table th, table td {border-bottom:1px solid #4c4c4c;}
+table tbody tr:nth-child(odd){background:#616161;}
+
+/* Right Box, Li */
+.wrappost li{border-bottom:1px solid #4c4c4c}
